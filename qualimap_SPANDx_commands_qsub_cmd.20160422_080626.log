@@ -1,0 +1,63 @@
+======================================================
+/cri/home2/zlei2/Arden_SCRIPTS/SPANDx/qsub_cmd.py /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/qualimap_SPANDx_commands.sh
+PBS setting when it starts running the commands:
+mem = 16gb
+nodes = 1
+ppn = 6
+walltime = 20:00:00
+base dir is: /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3
+pipeline log file is: /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/qsub_cmd_log/qualimap_SPANDx_commands_qsub_cmd.20160422_080626.log
+======================================================
+2016-04-22 08:06:26	QUALIMAP_SPANDX_COMMANDS.STEP1
+2016-04-22 08:06:26	JOB_SUMMIT(50906)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B1-4_S8/unique/B1-4_S8.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50907)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B1_S1/unique/B1_S1.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50908)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B2-4_S9/unique/B2-4_S9.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50909)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B2_S2/unique/B2_S2.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50910)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B3-4_S10/unique/B3-4_S10.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50911)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B3_S3/unique/B3_S3.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50912)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B4-4_S11/unique/B4-4_S11.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50913)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B4_S4/unique/B4_S4.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50914)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B5-4_S12/unique/B5-4_S12.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50915)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B5_S5/unique/B5_S5.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50916)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H1-4_S13/unique/H1-4_S13.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50917)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H1_S6/unique/H1_S6.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50918)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H2-4_S14/unique/H2-4_S14.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50919)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H2_S7/unique/H2_S7.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50920)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H3-1_S77/unique/H3-1_S77.realigned.bam
+2016-04-22 08:06:26	JOB_SUMMIT(50921)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H3-4_S82/unique/H3-4_S82.realigned.bam
+2016-04-22 08:06:28	JOB_RUN   (50908)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B2-4_S9/unique/B2-4_S9.realigned.bam
+2016-04-22 08:06:56	JOB_RUN   (50912)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B4-4_S11/unique/B4-4_S11.realigned.bam
+2016-04-22 08:06:56	JOB_RUN   (50907)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B1_S1/unique/B1_S1.realigned.bam
+2016-04-22 08:06:56	JOB_RUN   (50906)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B1-4_S8/unique/B1-4_S8.realigned.bam
+2016-04-22 08:06:56	JOB_RUN   (50910)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B3-4_S10/unique/B3-4_S10.realigned.bam
+2016-04-22 08:06:56	JOB_RUN   (50909)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B2_S2/unique/B2_S2.realigned.bam
+2016-04-22 08:06:56	JOB_RUN   (50913)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B4_S4/unique/B4_S4.realigned.bam
+2016-04-22 08:06:56	JOB_RUN   (50911)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B3_S3/unique/B3_S3.realigned.bam
+2016-04-22 08:07:45	JOB_RUN   (50914)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B5-4_S12/unique/B5-4_S12.realigned.bam
+2016-04-22 08:07:45	JOB_RUN   (50915)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B5_S5/unique/B5_S5.realigned.bam
+2016-04-22 08:07:47	JOB_RUN   (50916)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H1-4_S13/unique/H1-4_S13.realigned.bam
+2016-04-22 08:08:19	JOB_RUN   (50918)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H2-4_S14/unique/H2-4_S14.realigned.bam
+2016-04-22 08:08:19	JOB_RUN   (50917)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H1_S6/unique/H1_S6.realigned.bam
+2016-04-22 08:08:23	JOB_RUN   (50919)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H2_S7/unique/H2_S7.realigned.bam
+2016-04-22 08:08:33	JOB_RUN   (50921)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H3-4_S82/unique/H3-4_S82.realigned.bam
+2016-04-22 08:08:33	JOB_RUN   (50920)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H3-1_S77/unique/H3-1_S77.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50907)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B1_S1/unique/B1_S1.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50912)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B4-4_S11/unique/B4-4_S11.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50913)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B4_S4/unique/B4_S4.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50910)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B3-4_S10/unique/B3-4_S10.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50911)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B3_S3/unique/B3_S3.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50917)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H1_S6/unique/H1_S6.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50915)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B5_S5/unique/B5_S5.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50909)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B2_S2/unique/B2_S2.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50908)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B2-4_S9/unique/B2-4_S9.realigned.bam
+2016-04-22 08:08:33	JOB_FINISH(50919)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H2_S7/unique/H2_S7.realigned.bam
+2016-04-22 08:08:37	JOB_FINISH(50906)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B1-4_S8/unique/B1-4_S8.realigned.bam
+2016-04-22 08:08:54	JOB_FINISH(50914)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/B5-4_S12/unique/B5-4_S12.realigned.bam
+2016-04-22 08:09:27	JOB_FINISH(50918)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H2-4_S14/unique/H2-4_S14.realigned.bam
+2016-04-22 08:09:59	JOB_FINISH(50921)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H3-4_S82/unique/H3-4_S82.realigned.bam
+2016-04-22 08:10:16	JOB_FINISH(50920)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H3-1_S77/unique/H3-1_S77.realigned.bam
+2016-04-22 08:10:24	JOB_FINISH(50916)	/crihome/zlei2/tools/qualimap_v0.7.1/qualimap bamqc -bam /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3/H1-4_S13/unique/H1-4_S13.realigned.bam
+2016-04-22 08:10:25	QUALIMAP_SPANDX_COMMANDS.STEP2
+2016-04-22 08:10:25	JOB_SUMMIT(50922)	qualimap_summary.py -b /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3
+2016-04-22 08:10:59	JOB_RUN   (50922)	qualimap_summary.py -b /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3
+2016-04-22 08:10:59	JOB_FINISH(50922)	qualimap_summary.py -b /cri/home2/zlei2/projects/2016.04-mhayden_outbreak2/bin_v3
